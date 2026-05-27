@@ -2,11 +2,14 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>HTTP REQUEST TEST</title>
+        <title>http request</title>
     </head>
     <body>
-        <p><h1>HTTP REQUEST TEST</h1></p>
+
+        <h2>HTTP REQUEST TEST</h2>
+
     <!--from 요소: anchor요소처럼 다른 문서를  실행하지만 데이터를 전달할 수있고 이동하기 위한 별도의 input요소가 필요함 (백엔드 프로그램[PNP])을 실행하고 데이터를 전달하는 요소 -->
+    
     <!-- 1. GET 방식 : 보낼 데이터를 URL 뒤에? 후 붙여서 전달하는 방식 -->
         <form action="./aaa.php" method="get">
             <input type="text" placeholder="제목 입력" name="title">
@@ -22,10 +25,10 @@
 
             <form action="./bbb.php" method="post">
                 <label for="in1">아이디 : </label>
-                <input type="text" name="user_id=" id="in1">
+                <input type="text" name="user_id" id="in1">
                 <br>
 
-                <label>비밀번호 : <input type="password" name="user_id"> </label>
+                <label>비밀번호 : <input type="password" name="user_pw"></label>
                 <br>
 
                 <p>
@@ -55,15 +58,11 @@
                 </div>
 
                 <hr>
-
                 <input type="submit" value="서버 전송">
                 <input type="reset" value="작성 취소">
-                
             </form>
-
-
          </fieldset>
 
     </body>
     
-    </html>
+</html>
