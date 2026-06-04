@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+    <link rel="stylesheet" href="./01.css">
+</head>
+<body>
+
+    <div class="login-wrapper">
+        <!-- 상단 헤더 (화살표 & 타이틀) -->
+        <header class="header">
+            <button class="back-btn">&#8592;</button>
+            <h2 class="title">LOGIN</h2>
+            <div class="empty"></div> <!-- 정렬용 빈 공간 -->
+        </header>
+
+        <!-- 입력창 구역 -->
+        <div class="input-container">
+            <div class="input-group">
+                <input type="text" placeholder="아이디 (이메일)" inputmode="email" autocapitalize="none">
+            </div>
+            <div class="input-group">
+                <input type="password" placeholder="비밀번호">
+            </div>
+        </div>
+
+        <!-- 로그인 버튼 -->
+        <button class="login-btn">로그인하기</button>
+
+        <!-- SNS 로그인 구역 -->
+        <div class="sns-container">
+            <p class="sns-title">SNS계정으로 로그인하기</p>
+            <div class="sns-icons">
+                <a href="#" class="sns-icon naver">N</a>
+                <a href="#" class="sns-icon kakao"></a>
+                <a href="#" class="sns-icon facebook">f</a>
+                <a href="#" class="sns-icon apple"></a>
+            </div>
+        </div>
+
+        <!-- 간편가입 버튼 -->
+        <a href="#" class="register-btn">계정이 없으신가요? 간편가입하기</a>
+
+        <!-- 하단 찾기 메뉴 -->
+        <footer class="footer-menu">
+            <a href="#">아이디 (이메일) 찾기</a>
+            <span class="divider"></span>
+            <a href="#">비밀번호 찾기</a>
+        </footer>
+    </div>
+
+</body>
+</html>

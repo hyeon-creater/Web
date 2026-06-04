@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>application</title>
+    <style>
+
+        body{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            margin: 0;
+            font-family: sans-serif;
+            padding: 0px 0px;
+        }
+        h2{
+            text-align: center;
+            font-size: 3em;
+        }
+        .input{
+           margin: auto;
+        }
+
+        .bb{
+            display: flex;
+        }
+        img{
+            width: 50px;
+            height: 50px;
+        }
+
+        .bb p{
+            margin: 0;
+        }
+
+        bb img{
+            width: 50px;
+            height: 50px;
+            object-fit: contain;
+        }
+    </style>
+</head>
+<body>
+    <h2>LOGIN</h2>
+    <div class="ion" style="font-size: 4px;">
+            <p><input type="text" placeholder="아이디(이메일)" ></p>
+    </div>
+    <div class="ion2" style="font-size: large;">
+            <p> <input type="password" placeholder="비밀번호"></p>
+    </div>
+    <div>
+        <button type="submit">로그인하기</button>
+    </div>
+    <p>SNS 계정으로 로그인하기</p>
+    <div class="bb">
+        <p><a href="<img src="./IMAGE/icons8-네이버-64.png" alt="네이버"></a>"></p>
+        <p><a href="<img src="./IMAGE/icons8-카카오톡-24.png" alt="카카오톡"></a>"></p>
+        <p><a href="<img src="./IMAGE/icons8-페이스북-24.png" alt="페이스북"></a>"></p>
+        <p><a href="<img src="./IMAGE/icons8-ios-50.png" alt="ios"></a>"></p>
+    </div>
+</body>
+</html>
